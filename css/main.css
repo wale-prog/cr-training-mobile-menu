@@ -12,22 +12,28 @@ html {
 
 a {
   text-decoration: none;
+  color: #fff
 }
 
 hr {
   width: 80vw;
 }
 
-header {
-  display: flex;
+header {  
   justify-content: space-between;
   align-items: center;
   padding: 15px;
   background-color: #3c3a39;
-  color: white;
 }
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+/* #desktop-nav, #desktop-nav ul {
+  display: none;
+} */
 
-#desktop-nav, #desktop-nav ul {
+.hidden {
   display: none;
 }
 
@@ -37,12 +43,14 @@ header {
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
+  color: #fff;
 }
 
 .menu-bars {
   background: transparent;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 .menu-bars i {
@@ -444,13 +452,21 @@ textarea {
     display: none;
   }
 
-  #desktop-nav {
-    display: block;
-  }
+  .navbar {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+  } 
 
   #desktop-nav ul {
     display: flex;
     margin-right: 10vw;
+    height: 100vh;
+    background-color: #3c3a39;
+  }
+
+  .menu-list a {
+    color: #fff;
   }
 
   .nav-link {

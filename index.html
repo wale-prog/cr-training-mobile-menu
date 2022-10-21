@@ -10,22 +10,29 @@
   </head>
   <body>
     <header>
-      <h1 id="logo">Aziz Mejri</h1>
-      <button type="button" class="menu-bars">
-        <i class="fas fa-bars"></i>
-      </button>
-      <nav id="desktop-nav">
-        <ul>
+      <div>
+        <h1 id="logo">Aziz Mejri</h1>
+        <button type="button" class="menu-bars">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>      
+      <nav class="hidden navbar">
+        <ul class="hidden menu-list">
+          <li class="close-btn"><a href=""><img src="./close_mobile_menu.png" alt=""></a></li>
           <li><a class="nav-link" href="#projects">Portoflio</a></li>
+          <hr>
           <li><a class="nav-link" href="#about-me">About</a></li>
+          <hr>
           <li>
             <a class="nav-link" href="#contact"
               >Contact <i class="far fa-envelope"></i
             ></a>
           </li>
+          <hr>
         </ul>
       </nav>
     </header>
+    
     <main>
       <div id="intro">
         <div class="intro-icon">
