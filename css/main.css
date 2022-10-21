@@ -12,23 +12,25 @@ html {
 
 a {
   text-decoration: none;
-  color: #fff
+  color: #fff;
 }
 
 hr {
   width: 80vw;
 }
 
-header {  
+header {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
   background-color: #3c3a39;
 }
+
 header div {
   display: flex;
   justify-content: space-between;
 }
+
 /* #desktop-nav, #desktop-nav ul {
   display: none;
 } */
@@ -456,7 +458,7 @@ textarea {
     background-color: #fff;
     position: absolute;
     top: 0;
-  } 
+  }
 
   #desktop-nav ul {
     display: flex;
